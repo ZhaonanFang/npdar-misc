@@ -4,8 +4,14 @@ Helper scripts for [npdar](https://github.com/rcpch/npdar) that don't belong in 
 
 ## Demo GIFs
 
-Records the cursor, hover and button actions on the `plot_raincloud_ly()` and
-`plot_corrmat_ly()` examples, for the npdar README and pkgdown site.
+Demos of `plot_raincloud_ly()` and `plot_corrmat_ly()`:
+
+![plot_raincloud_ly demo](gifs/plot_raincloud_ly.gif)
+
+![plot_corrmat_ly demo](gifs/plot_corrmat_ly.gif)
+
+The scripts record the cursor, hover and button actions on the two examples, for the npdar README
+and pkgdown site.
 
 - `render_plotly.R` renders the example plots to HTML in `build/`.
 - `record_plotly.py` records them in headless Edge (Playwright) and saves the GIFs to `gifs/`,
