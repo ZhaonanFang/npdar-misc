@@ -11,7 +11,7 @@ rc <- plot_raincloud_ly(iris,
                         x = "Sepal.Length",
                         y = "Species",
                         colors = c("#11A7F2", "#E00087", "#00bdaa"),
-                        scatter_layout = "dots",
+                        scatter_layout = "stacked",
                         show_legend = TRUE) |>
   plotly::layout(yaxis = list(showticklabels = FALSE),
                  legend = list(x = 1, y = -0.2, xanchor = "right",
